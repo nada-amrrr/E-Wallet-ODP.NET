@@ -1,0 +1,14 @@
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.csproj.AssemblyReference.cache
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.Balance.resources
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.Banks.resources
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.Information.resources
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.Login.resources
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.MainForm.resources
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.MyWallet.resources
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.signup.resources
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.Transactions.resources
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.csproj.GenerateResource.cache
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.AssemblyInfoInputs.cache
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.AssemblyInfo.cs
+C:\Rescources 26\Software Enginering\Project\WinFormsApp3\WinFormsApp3\obj\Debug\net48\WinFormsApp3.csproj.CoreCompileInputs.cache

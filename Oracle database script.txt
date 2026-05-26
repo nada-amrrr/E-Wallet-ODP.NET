@@ -1,0 +1,301 @@
+CREATE TABLE user_data
+(
+    id_user        NUMBER PRIMARY KEY,
+    usrname        VARCHAR2(20) UNIQUE,
+    email          VARCHAR2(30) UNIQUE,
+    user_password  VARCHAR2(20),
+    pin            NUMBER(4),
+    balance        NUMBER
+);
+
+CREATE TABLE banks
+(
+    bank_id    NUMBER PRIMARY KEY,
+    bank_name  VARCHAR2(50)
+);
+
+CREATE TABLE userbanks
+(
+    user_id  NUMBER,
+    bank_id  NUMBER,
+    PRIMARY KEY (user_id, bank_id),
+    CONSTRAINT fk_userbanks_user
+        FOREIGN KEY (user_id) REFERENCES user_data(id_user),
+    CONSTRAINT fk_userbanks_bank
+        FOREIGN KEY (bank_id) REFERENCES banks(bank_id)
+);
+
+CREATE TABLE Transactions
+(
+    transactionid     NUMBER PRIMARY KEY,
+    sender_user_id    NUMBER,
+    receiver_user_id  NUMBER,
+    amount            NUMBER,
+    tdate             DATE,
+    transaction_type  VARCHAR2(20),
+    status            VARCHAR2(20),
+    CONSTRAINT fk_sender_user
+        FOREIGN KEY (sender_user_id) REFERENCES user_data(id_user),
+    CONSTRAINT fk_receiver_user
+        FOREIGN KEY (receiver_user_id) REFERENCES user_data(id_user)
+);
+
+
+CREATE SEQUENCE seq_user_id START WITH 21 INCREMENT BY 1;
+CREATE SEQUENCE seq_transaction_id START WITH 31 INCREMENT BY 1;
+
+
+
+INSERT INTO user_data VALUES (1,  'ahmed',   'ahmed@mail.com',   'pass101', 1234, 5200);
+INSERT INTO user_data VALUES (2,  'sara',    'sara@mail.com',    'pass102', 2345, 7800);
+INSERT INTO user_data VALUES (3,  'mohamed', 'mohamed@mail.com', 'pass103', 3456, 12000);
+INSERT INTO user_data VALUES (4,  'fatma',   'fatma@mail.com',   'pass104', 4567, 4300);
+INSERT INTO user_data VALUES (5,  'omar',    'omar@mail.com',    'pass105', 5678, 9500);
+INSERT INTO user_data VALUES (6,  'nour',    'nour@mail.com',    'pass106', 6789, 6700);
+INSERT INTO user_data VALUES (7,  'youssef', 'youssef@mail.com', 'pass107', 7891, 15000);
+INSERT INTO user_data VALUES (8,  'mariam',  'mariam@mail.com',  'pass108', 8912, 8200);
+INSERT INTO user_data VALUES (9,  'khaled',  'khaled@mail.com',  'pass109', 9123, 3100);
+INSERT INTO user_data VALUES (10, 'hana',    'hana@mail.com',    'pass110', 1357, 11200);
+INSERT INTO user_data VALUES (11, 'ali',     'ali@mail.com',     'pass111', 2468, 4700);
+INSERT INTO user_data VALUES (12, 'reem',    'reem@mail.com',    'pass112', 3579, 6300);
+INSERT INTO user_data VALUES (13, 'mahmoud', 'mahmoud@mail.com', 'pass113', 4681, 13400);
+INSERT INTO user_data VALUES (14, 'aya',     'aya@mail.com',     'pass114', 5792, 7600);
+INSERT INTO user_data VALUES (15, 'hassan',  'hassan@mail.com',  'pass115', 6813, 8900);
+INSERT INTO user_data VALUES (16, 'dina',    'dina@mail.com',    'pass116', 7924, 5400);
+INSERT INTO user_data VALUES (17, 'tamer',   'tamer@mail.com',   'pass117', 8135, 10100);
+INSERT INTO user_data VALUES (18, 'salma',   'salma@mail.com',   'pass118', 9246, 6900);
+INSERT INTO user_data VALUES (19, 'karim',   'karim@mail.com',   'pass119', 1478, 15800);
+INSERT INTO user_data VALUES (20, 'layla',   'layla@mail.com',   'pass120', 2589, 7200);
+
+INSERT INTO banks VALUES (1,  'National Bank of Egypt');
+INSERT INTO banks VALUES (2,  'Banque Misr');
+INSERT INTO banks VALUES (3,  'CIB Bank');
+INSERT INTO banks VALUES (4,  'QNB Al Ahli');
+INSERT INTO banks VALUES (5,  'Alex Bank');
+INSERT INTO banks VALUES (6,  'HSBC Egypt');
+INSERT INTO banks VALUES (7,  'Arab African International Bank');
+INSERT INTO banks VALUES (8,  'Credit Agricole Egypt');
+INSERT INTO banks VALUES (9,  'Emirates NBD Egypt');
+INSERT INTO banks VALUES (10, 'Faisal Islamic Bank');
+INSERT INTO banks VALUES (11, 'ADIB Egypt');
+INSERT INTO banks VALUES (12, 'Bank Audi');
+
+INSERT INTO userbanks VALUES (1, 1);
+INSERT INTO userbanks VALUES (1, 3);
+INSERT INTO userbanks VALUES (1, 5);
+INSERT INTO userbanks VALUES (2, 2);
+INSERT INTO userbanks VALUES (2, 4);
+INSERT INTO userbanks VALUES (3, 1);
+INSERT INTO userbanks VALUES (3, 6);
+INSERT INTO userbanks VALUES (3, 7);
+INSERT INTO userbanks VALUES (4, 3);
+INSERT INTO userbanks VALUES (4, 8);
+INSERT INTO userbanks VALUES (5, 2);
+INSERT INTO userbanks VALUES (5, 5);
+INSERT INTO userbanks VALUES (5, 9);
+INSERT INTO userbanks VALUES (6, 4);
+INSERT INTO userbanks VALUES (6, 10);
+INSERT INTO userbanks VALUES (7, 1);
+INSERT INTO userbanks VALUES (7, 7);
+INSERT INTO userbanks VALUES (7, 11);
+INSERT INTO userbanks VALUES (8, 3);
+INSERT INTO userbanks VALUES (8, 6);
+INSERT INTO userbanks VALUES (9, 5);
+INSERT INTO userbanks VALUES (9, 12);
+INSERT INTO userbanks VALUES (10, 2);
+INSERT INTO userbanks VALUES (10, 8);
+INSERT INTO userbanks VALUES (10, 10);
+INSERT INTO userbanks VALUES (11, 1);
+INSERT INTO userbanks VALUES (11, 9);
+INSERT INTO userbanks VALUES (12, 4);
+INSERT INTO userbanks VALUES (12, 6);
+INSERT INTO userbanks VALUES (12, 12);
+INSERT INTO userbanks VALUES (13, 2);
+INSERT INTO userbanks VALUES (13, 7);
+INSERT INTO userbanks VALUES (14, 3);
+INSERT INTO userbanks VALUES (14, 11);
+INSERT INTO userbanks VALUES (14, 12);
+INSERT INTO userbanks VALUES (15, 5);
+INSERT INTO userbanks VALUES (15, 6);
+INSERT INTO userbanks VALUES (16, 8);
+INSERT INTO userbanks VALUES (16, 9);
+INSERT INTO userbanks VALUES (16, 10);
+INSERT INTO userbanks VALUES (17, 1);
+INSERT INTO userbanks VALUES (17, 4);
+INSERT INTO userbanks VALUES (18, 7);
+INSERT INTO userbanks VALUES (18, 11);
+INSERT INTO userbanks VALUES (18, 12);
+INSERT INTO userbanks VALUES (19, 2);
+INSERT INTO userbanks VALUES (19, 3);
+INSERT INTO userbanks VALUES (19, 6);
+INSERT INTO userbanks VALUES (20, 5);
+INSERT INTO userbanks VALUES (20, 8);
+
+INSERT INTO Transactions VALUES (2,  2,    3,    750,  DATE '2025-01-06', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (3,  3,    4,    1200, DATE '2025-01-07', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (4,  5,    6,    300,  DATE '2025-01-08', 'TRANSFER', 'FAILED');
+INSERT INTO Transactions VALUES (5,  7,    8,    950,  DATE '2025-01-09', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (6,  NULL, 1,    2000, DATE '2025-01-10', 'DEPOSIT',  'SUCCESS');
+INSERT INTO Transactions VALUES (7,  NULL, 2,    1500, DATE '2025-01-11', 'DEPOSIT',  'SUCCESS');
+INSERT INTO Transactions VALUES (8,  3,    NULL, 1000, DATE '2025-01-12', 'WITHDRAW', 'SUCCESS');
+INSERT INTO Transactions VALUES (9,  4,    NULL, 600,  DATE '2025-01-13', 'WITHDRAW', 'SUCCESS');
+INSERT INTO Transactions VALUES (10, 5,    10,   850,  DATE '2025-01-14', 'TRANSFER', 'PENDING');
+INSERT INTO Transactions VALUES (11, 10,   9,    400,  DATE '2025-01-15', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (12, 9,    11,   250,  DATE '2025-01-16', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (13, 11,   12,   700,  DATE '2025-01-17', 'TRANSFER', 'FAILED');
+INSERT INTO Transactions VALUES (14, NULL, 12,   3000, DATE '2025-01-18', 'DEPOSIT',  'SUCCESS');
+INSERT INTO Transactions VALUES (15, 13,   14,   1100, DATE '2025-01-19', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (16, 14,   15,   650,  DATE '2025-01-20', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (17, 15,   NULL, 900,  DATE '2025-01-21', 'WITHDRAW', 'SUCCESS');
+INSERT INTO Transactions VALUES (18, NULL, 16,   2200, DATE '2025-01-22', 'DEPOSIT',  'SUCCESS');
+INSERT INTO Transactions VALUES (19, 16,   17,   500,  DATE '2025-01-23', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (20, 17,   18,   1250, DATE '2025-01-24', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (21, 18,   19,   800,  DATE '2025-01-25', 'TRANSFER', 'PENDING');
+INSERT INTO Transactions VALUES (22, 19,   20,   1600, DATE '2025-01-26', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (23, 20,   1,    450,  DATE '2025-01-27', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (24, 2,    NULL, 500,  DATE '2025-01-28', 'WITHDRAW', 'FAILED');
+INSERT INTO Transactions VALUES (25, NULL, 5,    2700, DATE '2025-01-29', 'DEPOSIT',  'SUCCESS');
+INSERT INTO Transactions VALUES (26, 1,    3,    350,  DATE '2025-02-01', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (27, 8,    4,    780,  DATE '2025-02-02', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (28, 6,    10,   410,  DATE '2025-02-03', 'TRANSFER', 'SUCCESS');
+INSERT INTO Transactions VALUES (29, 9,    NULL, 300,  DATE '2025-02-04', 'WITHDRAW', 'SUCCESS');
+INSERT INTO Transactions VALUES (30, NULL, 7,    5000, DATE '2025-02-05', 'DEPOSIT',  'SUCCESS');
+
+COMMIT;
+
+CREATE OR REPLACE PROCEDURE view_balance
+(
+    id    IN  NUMBER,
+    balan OUT NUMBER
+)
+AS
+BEGIN
+    SELECT balance
+    INTO   balan
+    FROM   user_data
+    WHERE  id_user = id;
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        balan := -1;
+END;
+/
+
+CREATE OR REPLACE PROCEDURE get_user_balance
+(
+    p_username IN  user_data.usrname%TYPE,
+    p_user_id  OUT NUMBER,
+    p_balance  OUT NUMBER,
+    p_pin      OUT NUMBER
+)
+AS
+BEGIN
+    SELECT id_user, balance, pin
+    INTO   p_user_id, p_balance, p_pin
+    FROM   user_data
+    WHERE  usrname = p_username;
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        p_user_id := -1;
+        p_balance := -1;
+        p_pin     := -1;
+END;
+/
+
+CREATE OR REPLACE PROCEDURE get_transactions_by_user
+(
+    p_user_id IN  NUMBER,
+    p_result  OUT SYS_REFCURSOR
+)
+AS
+BEGIN
+    OPEN p_result FOR
+        SELECT t.transactionid,
+               s.usrname AS sender,
+               r.usrname AS receiver,
+               t.amount,
+               t.tdate,
+               t.transaction_type,
+               t.status
+        FROM   Transactions t
+        LEFT JOIN user_data s ON s.id_user = t.sender_user_id
+        LEFT JOIN user_data r ON r.id_user = t.receiver_user_id
+        WHERE  t.sender_user_id   = p_user_id
+            OR t.receiver_user_id = p_user_id
+        ORDER  BY t.tdate DESC;
+END;
+/
+
+CREATE OR REPLACE PROCEDURE getuserbanks
+(
+    p_user_id IN  NUMBER,
+    p_result  OUT SYS_REFCURSOR
+)
+AS
+BEGIN
+    OPEN p_result FOR
+        SELECT b.bank_id,
+               b.bank_name
+        FROM   banks b
+        JOIN   userbanks ub ON ub.bank_id = b.bank_id
+        WHERE  ub.user_id = p_user_id
+        ORDER  BY b.bank_name;
+END;
+/
+
+CREATE OR REPLACE PROCEDURE make_wallet_transfer
+(
+    p_sender_id   IN  NUMBER,
+    p_receiver_id IN  NUMBER,
+    p_amount      IN  NUMBER,
+    p_pin         IN  NUMBER,
+    p_status      OUT VARCHAR2
+)
+AS
+    v_sender_balance NUMBER;
+    v_real_pin       NUMBER;
+    v_receiver_count NUMBER;
+BEGIN
+    SELECT balance, pin
+    INTO   v_sender_balance, v_real_pin
+    FROM   user_data
+    WHERE  id_user = p_sender_id;
+
+    SELECT COUNT(*)
+    INTO   v_receiver_count
+    FROM   user_data
+    WHERE  id_user = p_receiver_id;
+
+    IF v_receiver_count = 0 THEN
+        p_status := 'receiver not found';
+    ELSIF v_real_pin != p_pin THEN
+        p_status := 'wrong pin';
+    ELSIF v_sender_balance < p_amount THEN
+        p_status := 'insufficient balance';
+    ELSE
+        UPDATE user_data
+        SET    balance = balance - p_amount
+        WHERE  id_user = p_sender_id;
+
+        UPDATE user_data
+        SET    balance = balance + p_amount
+        WHERE  id_user = p_receiver_id;
+
+        INSERT INTO Transactions
+            (transactionid, sender_user_id, receiver_user_id,
+             amount, tdate, transaction_type, status)
+        VALUES
+            (seq_transaction_id.NEXTVAL, p_sender_id, p_receiver_id,
+             p_amount, SYSDATE, 'TRANSFER', 'SUCCESS');
+
+        COMMIT;
+        p_status := 'completed';
+    END IF;
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        p_status := 'sender not found';
+    WHEN OTHERS THEN
+        ROLLBACK;
+        p_status := 'error';
+END;
+/
+

@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\transactions.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\transactions.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\mywallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\mywallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\banks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\banks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\banks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\banks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|c:\\rescources 26\\software enginering\\project\\winformsapp3\\winformsapp3\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB09BF1-CF0F-93FB-BCC0-DE9EEE202E42}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyWallet.cs",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\MyWallet.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\MyWallet.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\MyWallet.cs",
+              "RelativeToolTip": "WinFormsApp3\\MyWallet.cs",
+              "ViewState": "AgIAABsAAAAAmZmZmZkZwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:45:21.205Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transactions.Designer.cs",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Transactions.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\Transactions.Designer.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Transactions.Designer.cs",
+              "RelativeToolTip": "WinFormsApp3\\Transactions.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:30:32.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Transactions.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\Transactions.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Transactions.cs",
+              "RelativeToolTip": "WinFormsApp3\\Transactions.cs",
+              "ViewState": "AgIAAA4AAAAAmZmZmZklwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:28:03.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "signup.cs",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\signup.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\signup.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\signup.cs",
+              "RelativeToolTip": "WinFormsApp3\\signup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:46:01.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\MainForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\MainForm.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\MainForm.cs",
+              "RelativeToolTip": "WinFormsApp3\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:45:07.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Transactions.cs [Design]",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Transactions.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\Transactions.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Transactions.cs [Design]",
+              "RelativeToolTip": "WinFormsApp3\\Transactions.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:25:17.093Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Login.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\Login.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Login.cs",
+              "RelativeToolTip": "WinFormsApp3\\Login.cs",
+              "ViewState": "AgIAACEAAACA//////8nwBoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:44:54.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Information.cs",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Information.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\Information.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Information.cs",
+              "RelativeToolTip": "WinFormsApp3\\Information.cs",
+              "ViewState": "AgIAAAoAAAAgMzMzMzMrwBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:44:39.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DB.cs",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\DB.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\DB.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\DB.cs",
+              "RelativeToolTip": "WinFormsApp3\\DB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:44:17.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\MainForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\MainForm.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\MainForm.cs [Design]",
+              "RelativeToolTip": "WinFormsApp3\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T16:30:35.929Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Banks.cs [Design]",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Banks.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\Banks.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Banks.cs [Design]",
+              "RelativeToolTip": "WinFormsApp3\\Banks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T16:35:04.995Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Banks.cs",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Banks.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\Banks.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Banks.cs",
+              "RelativeToolTip": "WinFormsApp3\\Banks.cs",
+              "ViewState": "AgIAAA8AAABgZmZmZuY2wB8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:44:01.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Balance.cs",
+              "DocumentMoniker": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Balance.cs",
+              "RelativeDocumentMoniker": "WinFormsApp3\\Balance.cs",
+              "ToolTip": "C:\\Rescources 26\\Software Enginering\\Project\\WinFormsApp3\\WinFormsApp3\\Balance.cs",
+              "RelativeToolTip": "WinFormsApp3\\Balance.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAlwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:43:25.055Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
